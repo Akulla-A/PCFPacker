@@ -1,7 +1,3 @@
-# Variables
-dirVMF = "C:/PATH/FOR/OUTPUTVMF/test.vmf"
-
-# Code
 import re
 import os
 import argparse
