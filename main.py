@@ -665,4 +665,9 @@ if __name__ == "__main__":
             textures.append(content)
 
     # Write VMF
-    writeVMF(textures, models, args.output_vmf)
+    if args.output_vmf.endswith('.txt'):
+        # Open file
+        with open(args.output_vmf, 'w', encoding='utf-8') as f:
+            f.write(str(textures) + "\n" * 5 + str(models))
+    else:
+        writeVMF(textures, models, args.output_vmf)
