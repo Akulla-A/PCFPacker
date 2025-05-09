@@ -2,7 +2,7 @@
 
 A simple python script to extract used models and texture of .pcfs ( https://developer.valvesoftware.com/wiki/PCF ) files in a folder, and output a vmf. Then, you can compile the VMF and use VIDE (https://developer.valvesoftware.com/wiki/VIDE) to get all the required contents.
 
-#How to use
+# How to use
 python3 script.py FOLDER_PARTICLES OUTPUT_VMF
 
 If it doesn't work, you can give an absolute path to the script, such that:
