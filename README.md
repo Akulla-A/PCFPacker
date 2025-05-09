@@ -11,4 +11,6 @@ python3 C:/.../script.py FOLDER_PARTICLES OUTPUT_VMF
 A example:
 python3 "f:/dev/PCFPacker/main.py" "E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\akulla_content\particles" "F:\dev\output_particles.vmf"
 
+If you provide as a output_file, a .txt, it will write the list of models and texture rather than a vmf.
+
 After that, open the vmf with Hammer, compile and use VIDE to pack everything. You will need to put your particles manually afterwards in the contents to have a ready, working content.
